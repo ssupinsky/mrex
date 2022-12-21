@@ -1,9 +1,9 @@
 {
   "name": "mrex",
-  "version": "0.0.1",
+  "version": "0.0.2-0",
   "description": "Exec a command for each package in a monorepository",
   "main": "index.js",
-  "bin":  {
+  "bin": {
     "mrex": "./index.js"
   },
   "scripts": {

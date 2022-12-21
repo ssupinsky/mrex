@@ -2,6 +2,7 @@
   "name": "mrex",
   "version": "0.0.2-0",
   "description": "Exec a command for each package in a monorepository",
+  "type": "module",
   "main": "index.js",
   "bin": {
     "mrex": "./index.js"
@@ -25,5 +26,14 @@
   "bugs": {
     "url": "https://github.com/ssupinsky/mrex/issues"
   },
-  "homepage": "https://github.com/ssupinsky/mrex#readme"
+  "homepage": "https://github.com/ssupinsky/mrex#readme",
+  "dependencies": {
+    "execa": "^6.1.0",
+    "find-up": "^6.3.0",
+    "glob-all": "^3.3.1",
+    "graph-data-structure": "^2.0.0",
+    "is-npm": "^6.0.0",
+    "load-json-file": "^7.0.1",
+    "load-yaml-file": "^1.0.0"
+  }
 }

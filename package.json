@@ -1,0 +1,26 @@
+{
+  "name": "mrex",
+  "version": "0.0.1",
+  "description": "Exec a command for each package in a monorepository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssupinsky/mrex.git"
+  },
+  "keywords": [
+    "pnpm",
+    "exec",
+    "monorepo",
+    "command",
+    "build"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssupinsky/mrex/issues"
+  },
+  "homepage": "https://github.com/ssupinsky/mrex#readme"
+}

@@ -1,6 +1,6 @@
 {
   "name": "mrex",
-  "version": "0.0.2-0",
+  "version": "0.0.2",
   "description": "Exec a command for each package in a monorepository",
   "type": "module",
   "main": "index.js",

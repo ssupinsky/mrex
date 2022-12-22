@@ -1,5 +1,7 @@
 # mrex
 Run commands for every package in a monorepo workspace, with respect to the order of inclusion.
+
+**mrex** is short for **monorepo exec**
  
 
 ##### Installation

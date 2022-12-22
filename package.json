@@ -1,6 +1,6 @@
 {
   "name": "mrex",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Exec a command for each package in a monorepo, with respect to the order of inclusion",
   "type": "module",
   "main": "index.js",

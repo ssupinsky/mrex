@@ -4,7 +4,7 @@ Run commands for every package in a monorepo workspace, with respect to the orde
 **mrex** is short for **monorepo exec**
  
 
-##### Installation
+### Installation
 `npm i -D mrex`
 
 or
@@ -16,7 +16,7 @@ or
 `pnpm i -D mrex`
 
 
-##### Usage:
+## Usage:
 `npm run mrex <command>`
 
 or
@@ -28,7 +28,9 @@ or
 `pnpm mrex <command>`
  
 
-##### For example:
-`yarn mrex build` - runs a `build` script in every package, starting with the ones that are required by other packages. 
+### For example:
+`yarn mrex build`
+
+Runs a `build` script in every package, starting with the ones that are required by other packages. 
 
 **mrex** will detect `npm`, `yarn` or `pnpm` workspaces and run the command with the proper package manager.

@@ -2,18 +2,31 @@
 Run commands for every package in a monorepo workspace, with respect to the order of inclusion.
  
 
+##### Installation
+`npm i -D mrex`
+
+or
+
+`yarn add -D mrex`
+
+or
+
+`pnpm i -D mrex`
+
+
 ##### Usage:
-`npm run mrx <command>`
+`npm run mrex <command>`
 
 or
 
-`yarn mrx <command>`
+`yarn mrex <command>`
 
 or
 
-`pnpm mrx <command>`
+`pnpm mrex <command>`
+ 
 
 ##### For example:
-`yarn mrx build` - runs a `build` script in every package, starting with the ones that are required by other packages. 
+`yarn mrex build` - runs a `build` script in every package, starting with the ones that are required by other packages. 
 
 **mrex** will detect `npm`, `yarn` or `pnpm` workspaces and run the command with the proper package manager.
